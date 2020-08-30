@@ -1,0 +1,27 @@
+package introUT;
+
+
+public class Test {
+	public static final int WOWGLOBAL = 88;
+	public static void main(String[] args) {
+		String hello = "Hello, world!";
+		System.out.println(hello);
+		System.out.println();
+		System.out.println("This program produces");
+		System.out.println("four lines of output");
+		fnx(12, hello);
+		double x = 19/5;
+		int xmod = (int) x;
+		System.out.println(xmod);
+		}
+
+	public static void fnx(int password, String auth) {
+		System.out.println("this function knows password " + password + " and is " + auth);
+		System.out.println(anotherfnx(5));
+	}
+	
+	public static void anotherfnx(int repeat) {
+		int x = 10;
+		return 10;
+	}
+}

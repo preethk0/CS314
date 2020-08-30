@@ -1,0 +1,44 @@
+package introUT;
+import java.util.Scanner;
+import java.util.Random;
+import java.io.File;
+
+public class Test {
+	public static final int WOWGLOBAL = 88;
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		Random rand = new Random();
+		File f = new File("test.txt");
+//		System.out.println("please enter two numbers");
+//		int num1 = console.nextInt();
+//		int num2 = console.nextInt();
+//		System.out.printf("the prod of your numbers is %d \n", num1*num2);
+		int sum = 0;
+		if (f.exists() && f.canRead()) {
+			System.out.println("yea " + f.getName());
+		}
+		else {
+			System.out.println("no");
+		}
+		double x = 19/5;
+		int xmod = (int) x;
+		//System.out.println(xmod);
+		}
+
+	public static int digitSum(int number) {
+		int sum = 0;
+		int ans = 0;
+		while(ans != number) {
+			ans = number % 10;
+			number = number / 10;
+			sum = sum + ans;
+		}
+		return sum;
+	}
+	
+	public static int anotherfnx(int repeat) {
+		int x = repeat;
+		repeat += 5;
+		return repeat;
+	}
+}

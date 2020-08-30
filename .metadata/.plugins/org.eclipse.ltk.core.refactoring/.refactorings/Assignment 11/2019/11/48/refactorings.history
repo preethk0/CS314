@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;destVertex&apos; in &apos;Graph.dijkstraHelper(...)&apos; to &apos;currVertex&apos;&#x0D;&#x0A;- Original project: &apos;Assignment 11&apos;&#x0D;&#x0A;- Original element: &apos;Graph.dijkstraHelper(PriorityQueue&lt;Path&gt;).destVertex&apos;&#x0D;&#x0A;- Renamed element: &apos;destVertex&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;destVertex&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Graph.java[Graph~dijkstraHelper~QPriorityQueue\&lt;QPath;&gt;;@destVertex!8336!8369!8343!8352!QVertex;!0!false" name="currVertex" references="true" stamp="1575149763854" version="1.0"/>
+</session>

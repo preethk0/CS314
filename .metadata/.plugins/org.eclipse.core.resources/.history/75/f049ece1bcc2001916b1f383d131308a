@@ -1,0 +1,28 @@
+package introUT;
+import java.awt.Graphics;
+import java.awt.Color;
+
+public class Test {
+	public static final int WOWGLOBAL = 88;
+	public static void main(String[] args) {
+		String hello = "Hello, world!";
+		System.out.println(hello);
+		System.out.println();
+		System.out.println("This program produces");
+		System.out.println("four lines of output");
+		fnx(12, hello);
+		DrawingPanel draw = new DrawingPanel(300,200);
+		}
+
+	public static void fnx(int password, String auth) {
+		System.out.println("this function knows password " + password + " and is " + auth);
+		anotherfnx(5);
+		//System.out.println(WOWGLOBAL);
+	}
+	
+	public static void anotherfnx(int repeat) {
+		for (int i=1; i<=repeat; i++) {
+			System.out.print(".");
+		}
+	}
+}

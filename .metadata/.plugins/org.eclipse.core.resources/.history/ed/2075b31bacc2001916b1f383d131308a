@@ -1,0 +1,31 @@
+package introUT;
+
+public class Test {
+	public static final int WOWGLOBAL = 88;
+	public static void main(String[] args) {
+		System.out.println("Hello, world!");
+		System.out.println();
+		System.out.println("This program produces");
+		System.out.println("four lines of output");
+		fnx();
+		}
+
+	public static void fnx(int password) {
+		System.out.println("i just called this function that knows password: " + password);
+		anotherfnx();
+		System.out.println(WOWGLOBAL);
+	}
+	
+	public static void anotherfnx() {
+		for (int i=1; i<=5; i++) {
+			for (int j=4; j>=i; j--) {
+				System.out.print(".");
+			}
+			System.out.print(i);
+			for (int k=i; k>1; k--) {
+				System.out.print(".");
+			}
+			System.out.println();
+		}
+	}
+}

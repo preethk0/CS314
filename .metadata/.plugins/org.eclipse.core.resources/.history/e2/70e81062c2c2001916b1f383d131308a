@@ -1,0 +1,27 @@
+package introUT;
+import java.util.Scanner;
+
+public class Test {
+	public static final int WOWGLOBAL = 88;
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		System.out.println("whats ya name");
+		int name = console.nextString();
+		System.out.println("Your name is " + name);
+		double x = 19/5;
+		int xmod = (int) x;
+		//System.out.println(xmod);
+		}
+
+	public static void fnx(int password, String auth) {
+		System.out.println("this function knows password " + password + " and is " + auth);
+		int ans = anotherfnx(5);
+		System.out.println(ans);
+	}
+	
+	public static int anotherfnx(int repeat) {
+		int x = repeat;
+		repeat += 5;
+		return repeat;
+	}
+}

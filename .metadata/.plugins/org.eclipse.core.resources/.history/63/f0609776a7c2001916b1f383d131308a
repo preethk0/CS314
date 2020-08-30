@@ -1,0 +1,27 @@
+package introUT;
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("Hello, world!");
+		System.out.println();
+		System.out.println("This program produces");
+		System.out.println("four lines of output");
+		fnx();
+		}
+
+	public static void fnx() {
+		int x = 4*6;
+		x += 3;
+		System.out.println(4 + 9 + " " + "i just called this function that does math: " + x);
+		anotherfnx();
+	}
+	
+	public static void anotherfnx() {
+		for (int i=1; i<=5; i++) {
+			for (int j=1; j<i; j++) {
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+	}
+}

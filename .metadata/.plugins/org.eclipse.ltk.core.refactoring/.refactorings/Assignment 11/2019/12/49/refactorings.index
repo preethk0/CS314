@@ -1,0 +1,6 @@
+1575593014861	Rename local variable 'connections'
+1575593115512	Rename local variable 'otherV'
+1575602106924	Rename local variable 'max1'
+1575602500552	Extract method 'updatePathInfo'
+1575606462024	Rename local variable 'name'
+1575606595607	Rename local variable 'maxPathLength'
